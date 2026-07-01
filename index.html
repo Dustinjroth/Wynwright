@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wynwright · Growth Advising</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Hanken+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="custom.css">
+<template id="__bundler_thumbnail" data-bg-color="#14120c">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#14120c"/>
+    <text x="600" y="400" font-family="Georgia, serif" font-style="italic" font-size="150" fill="#c89a55" text-anchor="middle" dominant-baseline="middle">W</text>
+    <rect x="540" y="470" width="120" height="2" fill="#c89a55" opacity="0.6"/>
+  </svg>
+</template>
+</head>
+<body>
+
+<div class="atmos"></div>
+<div class="tex" id="tex"></div>
+<div class="progress" id="progress"></div>
+
+<nav class="bar" id="bar">
+  <div class="shell">
+    <a href="#top" class="brand" data-cursor>
+      <span class="nm" data-edit="brandName">Wynwright</span>
+      <span class="tg" data-edit="brandTag">Growth Advising</span>
+    </a>
+    <div class="navlinks" id="navlinks">
+      <a href="#top" data-sec="home">Home</a>
+      <a href="#invest" data-sec="invest">Cost of Waiting</a>
+      <a href="#process" data-sec="process">Step One</a>
+      <a href="#session" data-sec="session">Step Two</a>
+      <a href="#who" data-sec="who">Why Me</a>
+    </div>
+    <a href="#process" class="btn"><span class="bi" data-edit="ctaLabel">Book your first session</span></a>
+  </div>
+</nav>
+
+<a id="top"></a>
+<section class="stage" id="stage" data-screen-label="Hero">
+  <div class="stage-sticky">
+    <div class="stage-bg-wrap" id="stageBgWrap">
+      <div class="stage-bg" id="stageBg" style="background-image:url('images/study-hero.png')"></div>
+    </div>
+    <div class="stage-scrim"></div>
+    <div class="stage-darken" id="stageDarken"></div>
+
+    <div class="scene scene-hero" id="sceneHero">
+      <div class="scene-inner">
+        <div class="kicker" data-edit="heroKicker">Growth Advising</div>
+        <h1 data-edit="heroTitle" data-html>Stop guessing. <em>Start growing.</em></h1>
+        <p class="sub" data-edit="heroSub">I help owners and operators find what's blocking growth and fix it.</p>
+        <div class="actions">
+          <a href="#process" class="btn"><span class="bi"><span data-edit="ctaLabel2">Book your first session</span> <span class="ar">&rarr;</span></span></a>
+          <a href="#diagnostic" class="tlink"><span class="u">Read on</span></a>
+        </div>
+        <p class="hero-guar" data-edit="heroGuar">If it's not worth more than you paid, you don't pay.</p>
+      </div>
+    </div>
+
+    <div class="scene scene-problem" id="sceneProblem">
+      <div class="scene-inner">
+        <div class="kicker" data-edit="offerKicker">What I Do</div>
+        <p class="stmt" data-edit="offerStmt" data-html style="font-size: 75px">Wynwright</p>
+        <p class="note" data-edit="offerNote" data-html><span class="note-l1" style="font-size: 22px">I help owners and operators find what's blocking growth and fix it.</span><span class="note-l2" style="font-size: 22px; width: 675px; margin: 30px 0px 0px">Most try to figure it out on their own, and it's an uphill battle. I spent years and thousands of dollars doing it alone so you don't have to.</span></p>
+        <p class="note offer-guar" data-edit="offerGuar">If the first session isn't worth more than you paid, you don't pay.</p>
+      </div>
+    </div>
+
+    <div class="scrollcue" id="scrollcue"><span>Scroll</span><span class="ln"></span></div>
+  </div>
+</section>
+
+<main>
+  <section class="diag realtalk" id="diagnostic" data-key="diagnostic" data-screen-label="Real Talk">
+    <div class="rt-sticky">
+      <div class="shell">
+        <div class="kicker rt-kicker" id="rtKicker" data-edit="rtKicker" style="font-size: 15px">Something to think about</div>
+        <div class="rt-stage">
+          <p class="rt-line" id="rtLine1" data-edit="rt1" data-html><span class="rt-a" style="font-size: 38px">You're working harder than you ever have.</span> <span class="rt-l2" style="font-size: 38px">So why does it still feel like<br>you're <em>getting nowhere?</em></span></p>
+          <p class="rt-line" id="rtLine2" data-edit="rt2" data-html style="font-size: 38px">Most people are <em>one decision</em> away<br>from <span>a completely different life.</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="invest costwait sec-reveal" id="invest" data-key="invest" data-screen-label="Cost of Waiting" style="color: rgb(236, 225, 204)">
+    <div class="cw-dip" aria-hidden="true"></div>
+    <div class="cw-dip-b" aria-hidden="true"></div>
+    <div class="shell">
+      <div class="sec-head">
+        <div class="kicker rise" data-edit="cwKicker" style="font-size: 15px">The Cost of Waiting</div>
+        <h2 class="split" data-split data-edit="cwTitle">It may be more than you think.</h2>
+      </div>
+      <div class="cw-grid">
+        <div class="cw-controls r-left">
+          <div class="cw-field">
+            <div class="cw-head">
+              <label class="cw-q" for="cwMonthly" data-edit="cwQ1" style="font-size: 18px">What does this problem cost you per month?</label>
+              <div class="cw-val"><span id="cwMonthlyV" style="font-size: 48px">$3,000</span><em style="font-size: 25px">/ month</em></div>
+            </div>
+            <input class="rng" id="cwMonthly" type="range" min="100" max="250000" step="100" value="3000" aria-label="Monthly cost">
+          </div>
+          <div class="cw-field">
+            <div class="cw-head">
+              <label class="cw-q" for="cwHours" data-edit="cwQ2" style="font-size: 18px">Hours lost per week dealing with problem.</label>
+              <div class="cw-val"><span id="cwHoursV" style="font-size: 48px">10</span><em style="font-size: 25px">hrs / week</em></div>
+            </div>
+            <input class="rng" id="cwHours" type="range" min="1" max="60" step="1" value="10" aria-label="Hours per week">
+          </div>
+          <div class="cw-field">
+            <div class="cw-head">
+              <label class="cw-q" for="cwRate" data-edit="cwQ3" style="font-size: 18px">What's an hour of your time worth?</label>
+              <div class="cw-val"><span id="cwRateV" style="font-size: 48px">$100</span><em style="font-size: 25px">/ hour</em></div>
+            </div>
+            <input class="rng" id="cwRate" type="range" min="1" max="1000" step="1" value="100" aria-label="Hourly value">
+          </div>
+          <div class="cw-field">
+            <div class="cw-head">
+              <label class="cw-q" for="cwMonths" data-edit="cwQ4" style="font-size: 18px">How long have you had this problem?</label>
+              <div class="cw-val"><span id="cwMonthsV" style="font-size: 39px">1 year</span></div>
+            </div>
+            <input class="rng" id="cwMonths" type="range" min="1" max="60" step="1" value="12" aria-label="Months it's been going on">
+          </div>
+        </div>
+        <div class="cw-readout r-right" style="border-width: 1px; border-radius: 1px; height: 400px; opacity: 1">
+          <div class="cw-block">
+            <div class="rk" style="font-size: 15px">Here's what it's costing you every year</div>
+            <div class="big" id="cwAnnual" style="font-size: 80px">$0</div>
+          </div>
+          <div class="cw-block">
+            <div class="rk" style="font-size: 15px">And how much you already lost</div>
+            <div class="mid" id="cwAlready" style="font-size: 80px">$0</div>
+          </div>
+          <p class="cw-tie" data-edit="cwTie" data-html>More problems means an even higher cost.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="process firstsession sec-reveal" id="process" data-key="process" data-screen-label="First Session">
+    <div class="shell">
+      <div class="sec-head">
+        <h2 class="split" data-split data-edit="fsTitle">Step One:</h2>
+      </div>
+      <div class="fs-arena">
+      <div class="fs-card rise" data-cursor>
+        <div class="fs-card-head">
+          <div class="fsp-label" data-edit="fsPriceLabel" style="font-size: 15px">Your Investment</div>
+          <div class="fsp-amount" data-edit="fsPrice">$1,500</div>
+          <div class="fsp-meta" data-edit="fsPriceMeta">One time. Your first month is included.</div>
+        </div>
+        <p class="fs-lead" data-edit="fsLead">Ninety minutes. Here's what you walk out with.</p>
+        <div class="fs-benefits">
+          <div class="fs-benefit" id="fsb1"><span class="fs-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div class="fs-bt-wrap"><div class="bt" data-edit="fs1t" style="font-family: &quot;Hanken Grotesk&quot;">What's actually blocking your growth</div></div></div>
+          <div class="fs-benefit" id="fsb2"><span class="fs-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div class="fs-bt-wrap"><div class="bt" data-edit="fs2t" style="font-family: &quot;Hanken Grotesk&quot;">What to stop doing right now</div></div></div>
+          <div class="fs-benefit" id="fsb3"><span class="fs-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div class="fs-bt-wrap"><div class="bt" data-edit="fs3t" style="font-family: &quot;Hanken Grotesk&quot;">The one move that matters most this week</div></div></div>
+          <div class="fs-benefit" id="fsb4"><span class="fs-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div class="fs-bt-wrap"><div class="bt" data-edit="fs4t" style="font-family: &quot;Hanken Grotesk&quot;">How you'll know it's working</div></div></div>
+          <div class="fs-benefit" id="fsb5"><span class="fs-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div class="fs-bt-wrap"><div class="bt" data-edit="fs5t" style="font-family: &quot;Hanken Grotesk&quot;">Where you're leaving money on the table</div></div></div>
+        </div>
+        <div class="fsp-scarcity" data-edit="fsScarcity">Only 3 spots available. Waitlist after.</div>
+        <div class="fs-cta"><a href="#process" class="btn"><span class="bi" data-edit="fsBtn">Book your first session</span></a></div>
+      </div>
+      <div class="fs-notes">
+        <div class="fs-note" data-for="fsb1"><div class="bd" data-edit="fs1d" style="padding: 0px; margin: 0px 0px 5px">The real constraint, not the symptom you came in talking about.</div></div>
+        <div class="fs-note" data-for="fsb2"><div class="bd" data-edit="fs2d">The work that's eating your time and money and getting you nowhere.</div></div>
+        <div class="fs-note" data-for="fsb3"><div class="bd" data-edit="fs3d">Not a list of twenty. The single thing to do first, and how to do it.</div></div>
+        <div class="fs-note" data-for="fsb4"><div class="bd" data-edit="fs4d">The one number to watch, so you're tracking progress instead of guessing.</div></div>
+        <div class="fs-note" data-for="fsb5"><div class="bd" data-edit="fs5d">The growth that's already within reach, once you stop missing it.</div></div>
+      </div>
+      <svg class="fs-lines" aria-hidden="true"></svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="session pricing sec-reveal" id="session" data-key="session" data-screen-label="The Monthly" style="padding: 0px">
+    <div class="shell" style="padding: 50px 64px 0px">
+      <div class="sec-head">
+        <div class="kicker rise" data-edit="prKicker" style="font-size: 15px">Continued Growth</div>
+        <h2 class="split" data-split data-edit="prTitle" data-html>Step Two:</h2>
+        <p class="pr-lead rise" data-edit="prLead">Solving one problem can create new ones. You run the plan. I hold you accountable and spot what's next. Month to month. Cancel anytime.</p>
+      </div>
+      <div class="tiers stagger">
+        <div class="tier" data-cursor>
+          <div class="t-name" data-edit="t1name" style="font-size: 25px">Guide</div>
+          <div class="t-price" data-edit="t1price">$500<span>/mo</span></div>
+          <ul class="t-feats">
+            <li><span class="t-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="t-ft">Monthly call</span></li>
+            <li><span class="t-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="t-ft">Text access for quick questions</span></li>
+            <li><span class="t-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="t-ft">Full framework and template library</span></li>
+            <li><span class="t-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="t-ft">Access to recorded trainings / past session library</span></li>
+            <li class="off"><span class="t-check" aria-hidden="true"></span><span class="t-ft">I review your real work between calls (your funnel, your numbers, your scripts)</span></li>
+            <li class="off"><span class="t-check" aria-hidden="true"></span><span class="t-ft">I track your numbers and hold you to the plan</span></li>
+            <li class="off"><span class="t-check" aria-hidden="true"></span><span class="t-ft">One real asset built together each month (an SOP, a sales script, a hiring process, an offer, etc)</span></li>
+            <li class="off"><span class="t-check" aria-hidden="true"></span><span class="t-ft">Warm intros from my network when they fit</span></li>
+            <li class="off"><span class="t-check" aria-hidden="true"></span><span class="t-ft">Same-day access</span></li>
+          </ul>
+          <div class="t-cta"><a href="#process" class="btn"><span class="bi">Get started</span></a></div>
+        </div>
+        <div class="tier feat" data-cursor>
+          <div class="t-flag" data-edit="t2flag">Most popular</div>
+          <div class="t-name" data-edit="t2name" style="font-size: 25px">Coach</div>
+          <div class="t-price" data-edit="t2price">$1,000<span>/mo</span></div>
+          <ul class="t-feats">
+            <li><span class="t-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="t-ft">2x Monthly call</span></li>
+            <li><span class="t-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="t-ft">Text access for quick questions</span></li>
+            <li><span class="t-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="t-ft">Full framework and template library</span></li>
+            <li><span class="t-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="t-ft">Access to recorded trainings / past session library</span></li>
+            <li><span class="t-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="t-ft">I review your real work between calls (your funnel, your numbers, your scripts)</span></li>
+            <li class="off"><span class="t-check" aria-hidden="true"></span><span class="t-ft">I track your numbers and hold you to the plan</span></li>
+            <li class="off"><span class="t-check" aria-hidden="true"></span><span class="t-ft">One real asset built together each month (an SOP, a sales script, a hiring process, an offer, etc)</span></li>
+            <li class="off"><span class="t-check" aria-hidden="true"></span><span class="t-ft">Warm intros from my network when they fit</span></li>
+            <li class="off"><span class="t-check" aria-hidden="true"></span><span class="t-ft">Same-day access</span></li>
+          </ul>
+          <div class="t-cta"><a href="#process" class="btn"><span class="bi">Get started</span></a></div>
+        </div>
+        <div class="tier" data-cursor>
+          <div class="t-name" data-edit="t3name" style="font-size: 25px">Partner</div>
+          <div class="t-price" data-edit="t3price">$2,000<span>/mo</span></div>
+          <ul class="t-feats">
+            <li><span class="t-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="t-ft">2x Monthly call</span></li>
+            <li><span class="t-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="t-ft">Text access for quick questions</span></li>
+            <li><span class="t-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="t-ft">Full framework and template library</span></li>
+            <li><span class="t-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="t-ft">Access to recorded trainings / past session library</span></li>
+            <li><span class="t-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="t-ft">I review your real work between calls (your funnel, your numbers, your scripts)</span></li>
+            <li><span class="t-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="t-ft">I track your numbers and hold you to the plan</span></li>
+            <li><span class="t-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="t-ft">One real asset built together each month (an SOP, a sales script, a hiring process, an offer, etc)</span></li>
+            <li><span class="t-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="t-ft">Warm intros from my network when they fit</span></li>
+            <li><span class="t-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="t-ft">Same-day access</span></li>
+          </ul>
+          <div class="t-cta"><a href="#process" class="btn"><span class="bi">Get started</span></a></div>
+        </div>
+      </div>
+      <div class="ic-card rise" data-cursor>
+        <div class="ic-head">
+          <div class="ic-name" data-edit="t4name" style="font-size: 25px; color: rgb(235, 225, 203)">Inner Circle</div>
+          <div class="ic-cta-price" data-edit="t4price" style="padding: 10px 0px 0px; font-size: 34px">Cost - Let's talk</div>
+        </div>
+        <ul class="t-feats ic-feats">
+          <li><span class="t-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="t-ft" style="font-size: 18px">Everything in Partner</span></li>
+          <li><span class="t-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="t-ft" style="font-size: 6px">Custom plan, built around your business</span></li>
+          <li><span class="t-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="t-ft" style="font-size: 18px">Priority on everything</span></li>
+          <li><span class="t-check" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M4.5 10.5l3.4 3.4L15.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="t-ft" style="font-size: 18px">Custom tools, automations, integrations, and more</span></li>
+        </ul>
+        <div class="t-cta"><a href="#process" class="btn"><span class="bi" data-edit="t4btn">Let's talk</span></a></div>
+      </div>
+      <p class="pr-note rise" data-edit="prNote">No lock-in. You stay because it's working.</p>
+    </div>
+  </section>
+
+  <section class="proof sec-reveal" id="proof" data-key="proof" data-screen-label="Proof" style="opacity: 1; height: 700px">
+    <div class="shell">
+      <div class="sec-head">
+        <h2 class="split" data-split data-edit="pfTitle">Testimonials</h2>
+      </div>
+      <div class="reviews stagger">
+        <figure class="review" data-cursor style="opacity: 0.8">
+          <div class="rq-mark">&ldquo;</div>
+          <blockquote class="rq" data-edit="rev1">Add a client testimonial here. Open Tweaks and paste their words, then their name and business below.</blockquote>
+          <figcaption class="rc" data-edit="rev1by">Client name · Business</figcaption>
+        </figure>
+        <figure class="review" data-cursor style="opacity: 0.8">
+          <div class="rq-mark">&ldquo;</div>
+          <blockquote class="rq" data-edit="rev2">Add a client testimonial here. Open Tweaks and paste their words, then their name and business below.</blockquote>
+          <figcaption class="rc" data-edit="rev2by">Client name · Business</figcaption>
+        </figure>
+        <figure class="review" data-cursor style="opacity: 0.8">
+          <div class="rq-mark">&ldquo;</div>
+          <blockquote class="rq" data-edit="rev3">Add a client testimonial here. Open Tweaks and paste their words, then their name and business below.</blockquote>
+          <figcaption class="rc" data-edit="rev3by">Client name · Business</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="who whyme sec-reveal" id="who" data-key="who" data-screen-label="Why Me">
+    <div class="shell">
+      <div class="sec-head">
+        <div class="kicker rise" data-edit="whyKicker" style="font-size: 15px">Why Me</div>
+        <h2 class="split" data-split data-edit="whyTitle" data-html>I'll teach you what I know so one day you can do this <em>without me.</em></h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-prose">
+          <p class="rise" data-edit="why1">I've spent years solving other people's problems, and helping others is what gives me energy. Different industries, different problems, same focus. Real estate, software, short-term rentals, IT, healthcare, golf coaching, medspas, chiropractic, agencies, business consultants and more.</p>
+          <p class="rise" data-edit="why2" data-html>The truth most won't say:
+You can probably figure this out on your own. I did, but it cost me years of frustration and a lot of money. I realized nobody cares if you did it alone. They only see the outcome.</p>
+          <p class="rise" data-edit="why3">My time and experience handed over, so you don't have to bleed for it.</p>
+        </div>
+        <div class="why-stats stagger">
+          <div class="stat">
+            <div class="s-fig" data-edit="stat1fig" style="font-size: 57px">75%</div>
+            <div class="s-lbl" data-edit="stat1lbl" style="margin: 20px 0px 0px; font-size: 18px">Cut one company's sales cycle</div>
+          </div>
+          <div class="stat">
+            <div class="s-fig" data-edit="stat2fig" style="font-size: 57px">2 &rarr; 100+</div>
+            <div class="s-lbl" data-edit="stat2lbl" style="font-size: 18px; margin: 1px 0px 0px">Took another from two clients to over a hundred</div>
+          </div>
+          <div class="stat">
+            <div class="s-fig" data-edit="stat3fig" style="font-size: 57px">27 &rarr; 52</div>
+            <div class="s-lbl" data-edit="stat3lbl" style="font-size: 18px; margin: 12px 0px 0px">Grew a franchise's locations</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cinema sec-reveal" data-key="cinema" data-screen-label="Closing">
+    <div class="bg-wrap" data-parallax="0.1">
+      <div class="bg" id="closeBg" style="background-image:url('images/study-hero.png');background-position:center 60%"></div>
+    </div>
+    <div class="scrim"></div>
+    <div class="c-content">
+      <p class="statement split" data-split data-edit="closeStmt" data-html>You haven't lost yet. You're still in it.<span class="stmt-gap"></span><em>Let's make it the move that pays off.</em></p>
+      <div class="actions rise d2"><a href="#process" class="btn"><span class="bi" data-edit="closeBtn">Book your first session</span></a></div>
+      <p class="close-sign rise d3" data-edit="closeSign">Stop guessing. Start growing.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="shell">
+    <a href="#top" class="brand"><span class="nm" data-edit="brandName">Wynwright</span><span class="tg" data-edit="brandTag">Growth Advising</span></a>
+    <div class="fine" data-edit="footerFine">By Appointment</div>
+  </div>
+</footer>
+
+<div id="tweaks-root"></div>
+
+<script src="image-slot.js"></script>
+<script src="app.js"></script>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="theme.jsx"></script>
+</body>
+</html>
